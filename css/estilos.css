@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#contacto{
+    background-image: url('../images/fondo-contacto\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#proyectos{
+    background-image: url('../images/fondo-proyectos\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav .nav-link{
+    color: #202020;
+}
+nav .active{ /*es para marcar la pagina en la que estamos ej.contacto y que este marcado*/
+    border: 1px solid #e20000;
+    border-radius: 25px;
+}
+.proyecto h2{
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase; /*convierto todo en mayuscula*/
+    background-color: red;/*fondo*/
+}
+.proyectos p{
+    font-size: 14px;
+    height: 148px;
+
+}
+.proyecto a{
+    color: #e20000;
+
+}
+.proyecto{
+    background-color: white;
+}
+.proyecto img{
+    height: 208px;/*para que todas las fotos queden a la misma medida*/
+
+}
+
+h1{
+    color: #e20000;
+    font-size: 36px;
+}
+p{
+    color: #6a6a6a;
+    font-size: 16px;
+
+
+}
+.form-control{
+    border-radius: 20px;
+    width: 100%;
+    padding: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important ;
+}
+textarea{
+    height: 150px;
+    
+}
+footer, footer a{
+    color: white;
+    font-weight: 100;
+}
+footer .fa-github{
+    font-size: 30px;
+    color: white;
+}
+.btn-blanco{
+    background-color: white;
+    color: #370a6d;
+}
+.btn-blanco:hover{
+    color: white;
+    background-color: #370a6d;
+}
+.btn-rojo{
+    background-color: #e20000;
+    color: white !important;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.fas-download{
+    font-weight: 900;
+    font-family:
+}
+.btn-rojo:hover{
+    color: #e20000;
+    background-color: #370a6d;
+}
+btn{
+    border-radius: 14px;
+}
+footer,footer a{
+    color: white;
+}
+footer .fa-github{
+    font-size: 30px;
+    color: white;
+}
+footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+.whatsapp{
+    position: fixed;
+    right: 70px;
+    bottom: 0px;
+    background-color: #370a6d;
+    border-top-left-radius: 10px; /*para izquierda*/
+    border-top-right-radius: 10px; /*para derecha*/
+
+}
+.fa-whatsapp{
+    font-size: 40px;
+    color: white;
+}
+
+@media (max-width: 750px) {
+    #contacto{
+        background-image: url('../images/fondo-proyectos.png');
+        background-repeat: no-repeat;
+        background-size: 50%;
+    }
+@media (max-width: 750px) {
+    #proyectos{
+        background-image: url('../images/fondo-proyectos.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
